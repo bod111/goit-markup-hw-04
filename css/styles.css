@@ -442,6 +442,7 @@ a {
 /*------------------------------------footer------------------------------------------------*/
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 .footer-socnet-box {
   display: flex;
@@ -520,7 +521,7 @@ a {
   /* list-style: none; */
 }
 .footer-socnet-box {
-  padding-top: 14px;
+  /* padding-top: 13px; */
   display: flex;
   flex-direction: column;
   justify-content: start;
