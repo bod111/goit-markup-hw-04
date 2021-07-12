@@ -69,13 +69,14 @@ a {
   background-color: var(--primary-white-color);
   margin: 0;
   padding: 0;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   min-width: 1200;
   height: 80px;
   /* width: 1200px; */
   display: flex;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
   justify-content: space-between;
 }
 .header-box {
@@ -148,6 +149,8 @@ a {
   margin-left: 50px;
 }
 .cont {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
